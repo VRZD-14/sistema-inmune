@@ -1,0 +1,24 @@
+body{
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    color:pink;
+    background-color: blueviolet;
+}
+img{
+    width: 70%;
+}
+.li{
+    text-align: end;
+}
+h2{
+    color: blue;
+}
+h3{
+    color: blueviolet;
+}
