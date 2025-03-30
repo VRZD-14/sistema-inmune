@@ -11,12 +11,14 @@ body{
 .d-flex{
     display: flex;
     gap: 10px;
+    
 }
  img,p{
     padding: 10 px;
  }
  img{
-    width: 50%;
+    
+    width: 60%;
     height: 80%;
     border-radius: 30px;
     view-timeline-name: --image;
@@ -34,15 +36,15 @@ body{
  }
 h2{
  text-align: center;
- color: white;
- background-color: blueviolet;
+ color: purple;
+ background-color: skyblue;
 }
 h1{
     text-align: center;
     color: white;
 }
 .h1,h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
 }
 .d-flextres{
     text-align: center;
@@ -54,15 +56,7 @@ h1{
     color: black;
 
 }
-.gradient{
-    font-weight: 500;
-    background: linear-gradient(to right,red, #ff00cc, yellow, #5252a0, #ff00cc, red);
-    background-clip: text;
-    color: transparent;
 
-    background-size: 200;
-    animation: colorchange 5s infinite ease-in-out;
-}
 @keyframes show {
     from{
         opacity: 0;
@@ -75,5 +69,6 @@ h1{
         scale: 100%;
     }
 }
-
-
+p{
+    color: blue;
+}
